@@ -8,4 +8,12 @@
     <string name="action_help">Help</string>
     <string name="global_data_switch">Global Data</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This fragment is a container for all my other fragments.</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
 </resources>
