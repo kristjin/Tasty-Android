@@ -18,6 +18,7 @@ public class Application extends android.app.Application {
 
     private static ConfigHelper configHelper;
 
+
     public Application() {
     }
 
@@ -27,8 +28,8 @@ public class Application extends android.app.Application {
 
         //TODO: Move this shit out of the code to be compiled and put it somewhere safe
         //TODO: Change these keys because they've been uploaded to github already
-        Parse.initialize(this, "1vcAj3ditfJMLBObl7krESKT83qVEWF1NqUzXsym",
-                "MCCbml5Pr7MI9QS2az7AA4omPPTEm7cxThqj4nZ3");
+
+        Parse.initialize(this);
 
         preferences = getSharedPreferences("com.herokuapp.tastyapp", Context.MODE_PRIVATE);
 

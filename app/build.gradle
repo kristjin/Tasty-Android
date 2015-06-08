@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "21.1.2"
+    buildToolsVersion '21.1.2'
 
     defaultConfig {
         applicationId "com.herokuapp.tastyapp.tasty"
@@ -21,10 +21,9 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.google.android.gms:play-services:7.3.0'
-    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.google.android.gms:play-services:7.5.0'
+    compile 'com.android.support:appcompat-v7:22.2.0'
     compile project(':bolts-android-1.2.0')
     compile project(':Parse-1.9.2')
     compile project(':ParseCrashReporting-1.9.2')
-    compile project(':ParseLoginUI')
 }
